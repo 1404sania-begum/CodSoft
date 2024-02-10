@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body::before{
+    content: "";
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjiepj_83G4PWPOI9dGehbyTzDJDmvfY9J_Q&usqp=CAU')no-repeat center center/cover;
+    position:fixed;
+     height:780px;
+    left: 0;
+    top: 0;
+    width:100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+#container {
+    display: block;
+    border: 2px solid rgb(246, 55, 55);
+    margin: 22px 550px;
+    height: auto;
+    justify-content: center;
+    width: auto;
+    border-radius: 15px;
+    background-color: rgb(246, 55, 55);
+}
+
+.cal {
+    display: block;
+    text-align: center;
+    margin: 18px 10px;
+    color: #800000;
+    animation-name: calcy;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes calcy {
+    20% {
+        color: rgb(218, 218, 3);
+    }
+
+    40% {
+        color: rgb(23, 62, 1);
+    }
+
+    60% {
+        color: rgb(240, 37, 172);
+    }
+
+    80% {
+        color: rgb(7, 3, 120);
+    }
+
+    100% {
+        color: rgb(25, 2, 47);
+    }
+}
+
+.cal:hover {
+    text-shadow: 2.4px 2.4px rgb(1, 77, 1);
+}
+
+.screen {
+    display: inline;
+    background-color: rgb(223, 45, 45);
+    border: 2px solid rgb(246, 55, 55);
+    margin: 10px 8px;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 32px;
+    padding:21px 20px;
+    width: 400px;
+    height: auto;
+    text-align: right;
+    cursor: pointer;
+}
+
+.screen:hover {
+    box-shadow: 2.6px 2.6px #b21c1c;
+    ;
+}
+
+.button {
+    display: block;
+    text-align: center;
+    margin: 18px 22px;
+    padding: 2px 4px;
+}
+
+.btn0 {
+    display: block;
+    text-align: center;
+    margin: 4px 10px;
+    padding: 5px 8px;
+}
+
+.btn0 button {
+    display: inline;
+    padding: 10px 18px;
+    margin: 2px 9.5px;
+    font-size: 21px;
+    font-weight:500;
+    border-radius: 60px;
+    box-shadow: 2.5px 2.5px red;
+    text-align: center;
+    border: none;
+    color:aqua;
+    background-color: rgb(223, 45, 45);
+    cursor: pointer;
+
+}
+
+
+.btn1,
+.btn2,
+.btn3,
+.btn4 {
+    /* border: 2px solid green; */
+    display: block;
+    text-align: center;
+    margin: 4px 10px;
+    font-size: 18px;
+    padding: 5px 8px;
+}
+
+.btn1 button,
+.btn2 button,
+.btn3 button,
+.btn4 button {
+    display: inline;
+    box-shadow: 3px 3px red;
+    padding: 10px 18px;
+    margin: 2px 9.5px;
+    font-size: 20px;
+    font-weight: 420;
+    border-radius: 60px;
+    border: none;
+    color: white;
+    background-color: rgb(223, 45, 45);
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 3px 3px #7c0202;
+}
+@media screen and (max-width: 800px) {
+    body {
+        height: auto; 
+    }
+
+    .cal {
+        justify-content: center;
+        margin: 18px 22px; 
+        margin-bottom: 13px;
+        height: 60px;
+        width: auto; 
+        padding-top: 20px;
+    }
+
+    #container {
+        margin: 4px 22px;
+        width:fit-content; 
+        border-radius: 20px;
+        justify-content: center;
+    }
+
+    .screen {
+        margin: 8px 10px; 
+        font-weight: 90;
+        font-size: 28px;
+        width: fit-content; 
+        padding: 10px; 
+    }
+
+    .btn0,
+    .btn1,
+    .btn2,
+    .btn3,
+    .btn4 {
+        display: flex;
+        flex-direction: row;
+        height: auto; 
+        margin-bottom: 10px; 
+        width: auto; 
+        padding: 2px;
+    }
+
+    .btn0 button,
+    .btn1 button,
+    .btn2 button,
+    .btn3 button,
+    .btn4 button {
+        font-size: 18px; 
+        padding: 10px 15px; 
+    }
+}
+@media screen and (min-width: 789px) and (max-width: 1398px) {
+    body {
+        height: auto; 
+    }
+
+    .cal {
+        justify-content: center;
+        margin: 18px 22px;
+        margin-bottom: 13px;
+        height: 60px; 
+        width: auto; 
+        padding-top: 20px; 
+    }
+
+    #container {
+        margin: 4px 22px; 
+        width:30%; 
+        border-radius: 20px;
+        justify-content: center;
+    }
+
+    .screen {
+        margin: 8px 10px; 
+        font-weight: 90;
+        font-size: 28px;
+        width: auto; 
+        padding: 10px;
+    }
+
+    .btn0,
+    .btn1,
+    .btn2,
+    .btn3,
+    .btn4 {
+        display: flex;
+        flex-direction: row;
+        height: auto; 
+        margin-bottom: 10px; 
+        width: auto;
+        padding: 2px;
+    }
+
+    .btn0 button,
+    .btn1 button,
+    .btn2 button,
+    .btn3 button,
+    .btn4 button {
+        font-size: 18px; 
+        padding: 10px 15px; 
+    }
+}
+
+@media screen  and (max-width: 310px) {
+    body {
+        height: auto; 
+    }
+
+    .cal {
+        justify-content: center;
+        margin: 18px 22px;
+        margin-bottom: 13px;
+        height: 60px; 
+        width: auto; 
+        padding-top: 20px; 
+    }
+
+    #container {
+        margin: 4px 22px; 
+        width: auto; 
+        border-radius: 20px;
+        justify-content: center;
+    }
+
+    .screen {
+        margin: 8px 10px; 
+        font-weight: 90;
+        font-size: 28px;
+        width: auto; 
+        padding: 10px;
+    }
+
+    .btn0,
+    .btn1,
+    .btn2,
+    .btn3,
+    .btn4 {
+        display: flex;
+        flex-direction: row;
+        height: auto; 
+        margin-bottom: 10px; 
+        width: auto;
+        padding: 2px;
+    }
+
+    .btn0 button,
+    .btn1 button,
+    .btn2 button,
+    .btn3 button,
+    .btn4 button {
+        font-size: 18px; 
+        padding: 10px 15px; 
+    }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1530px) {
+    body {
+        height: auto; 
+    }
+
+    .cal {
+        justify-content: center;
+        margin: 18px 22px;
+        margin-bottom: 13px;
+        height: 60px; 
+        width: auto; 
+        padding-top: 20px; 
+    }
+
+    #container {
+        margin: 4px 22px; 
+        width: 30%; 
+        border-radius: 20px;
+        justify-content: center;
+    }
+
+    .screen {
+        margin: 8px 10px; 
+        font-weight: 90;
+        font-size: 28px;
+        width: auto; 
+        padding: 10px;
+    }
+
+    .btn0,
+    .btn1,
+    .btn2,
+    .btn3,
+    .btn4 {
+        display: flex;
+        flex-direction: row;
+        height: auto; 
+        margin-bottom: 10px; 
+        width: auto;
+        padding: 2px;
+    }
+
+    .btn0 button,
+    .btn1 button,
+    .btn2 button,
+    .btn3 button,
+    .btn4 button {
+        font-size: 18px; 
+        padding: 10px 15px; 
+    }
+}
+
+

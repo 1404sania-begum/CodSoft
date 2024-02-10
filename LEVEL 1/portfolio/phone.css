@@ -1,0 +1,617 @@
+@media only screen and (max-width:1424px){
+    body{
+        background-color: rgb(47, 49, 50);
+    }
+#navbar{
+    width:1500px;
+}
+}
+
+@media only screen and (max-width:375px){
+    body{
+        font-size:5%;
+    }
+    #navbar ul {
+        margin-left: 0;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #navbar ul li {
+        display: block;
+        padding: 10px;
+        font-size: 18px;
+    }
+    #Home {
+       padding:2px 4px;
+    }
+    /* .text1 {
+        flex: 1;
+        text-align: left;
+    } */
+    .social-media {
+       display:flex;
+       flex-direction:column;
+       justify-content:center;
+        margin:-1.98rem 0.3rem;
+        padding: 2rem 3rem;
+         }
+         .com{
+            display: flex;
+            flex-direction: row;
+            height: 31px;
+            width: 35px;
+            margin: 2.5px 3px;
+         }
+         .photo1{
+            height:100%;
+            width: 100%;
+            justify-content:first baseline ;
+            margin: 57px -18px;
+            margin-left:9px;
+         } 
+
+
+.photo {
+   height:100%;
+   width: 100%;
+    margin-left:49px;
+    margin-bottom: 59rem;
+}
+.text{
+   margin-bottom: 12rem;
+    margin-left:9px;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0.1rem -150px;
+    padding:12px 12px;
+}
+.qualification{
+    flex-direction: column;
+}
+    .qualification .card1,
+    .card2,
+    .card3 {
+        margin: 20px;
+        margin-right: 0;
+        padding: 12px;
+    }
+
+    .center button {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .qualification h2 {
+        font-size: 18px;
+        line-height: 42px;
+    }
+
+    .qualification p {
+        font-size: 12px;
+    }
+    
+    .card1 img,
+    .card2 img,
+    .card3 img {
+        border-radius: 5%;
+        margin-bottom: 8px;
+        width:100%;
+        height: auto;
+    }
+    .skills .mh-professional-skills h3 {
+        text-align: center;
+        margin-left:-36px;
+    }
+
+    #projects {
+        height: auto;
+    }
+
+    .secondary h1 {
+        padding-right: 20px;
+    }
+
+    .my-projects .box1,
+    .my-projects .box2,
+    .my-projects .box3,
+    .my-projects .box4,
+    .my-projects .box5 {
+        margin-right: 0;
+    }
+
+    .my-projects .box1,
+    .my-projects .box2,
+    .my-projects .box3,
+    .my-projects .box4,
+    .my-projects .box5,
+    .box1 img,a,
+    .box2 img,a,
+    .box3 img,a,
+    .box4 img,a,
+    .box5 img,a
+     {
+        width: 100%;
+        margin: 0;
+    }
+
+    #Contact1 {
+        height: auto;
+    }
+
+    .connect h1 {
+        margin-right: 0;
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    form {
+        margin-left: 0;
+    }
+
+    form input,
+    form textarea {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    form textarea {
+        margin-left: 0;
+    }
+
+    .btn {
+        border-radius: 50px;
+    }
+     #footer {
+        padding: 1rem 5%;
+    }
+
+    .footer-text p {
+        font-size: 1.4rem;
+    }
+
+    .footer-iconTop a {
+        padding: 0.6rem;
+    }
+
+    .footer-iconTop a i {
+        font-size: 2rem;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #navbar {
+        padding: 8px 12px;
+    }
+
+    #navbar ul {
+        margin-left: 0;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #navbar ul li {
+        padding: 15px 20px;
+        font-size: 20px;
+    }
+
+
+    .h-primary {
+        flex-direction: column-reverse; 
+        font-size: 16px; 
+    }
+
+    .text1 {
+        text-align: center; 
+        margin-bottom: 20px; 
+    }
+
+    .photo1 {
+        flex: 0 0 auto; 
+        margin: 0 auto; 
+        margin-bottom: 20px; 
+    }
+
+    .text1 h1 {
+        font-size: 28px; 
+        margin: 12px 0; 
+    }
+
+    .text1 h3 {
+        font-size: 16px; 
+        margin: 12px 0;
+    }
+
+    .text1 p {
+        font-size: 14px; 
+        margin: 12px 0; 
+    }
+
+    .com {
+        margin: 10px; 
+    }
+   
+
+    .h-secondary h1 {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .my-image {
+        margin-top: 5px; 
+        border-width: 4px;
+    }
+
+    .text {
+        font-size: 18px; 
+        padding: 20px 40px; 
+        margin: 10px 20px; 
+    }
+
+    .text button {
+        margin: 20px 20px; 
+    }
+
+    .qualification h2 {
+        margin-top: 5px; 
+        margin-bottom: 15px; 
+        font-size: 18px; 
+    }
+
+    .qualification p {
+        font-size: 14px; 
+        margin: 3px; 
+        padding: 2px;
+    }
+
+    .center button {
+        margin: 10px 15px;
+    }
+    .qualification{
+        display:flex;
+        flex-direction: column;
+    }
+    .qualification .card1,
+    .card2,
+    .card3 {
+        margin: 20px 10px; 
+        padding: 20px;
+    }
+
+    .card1 img,
+    .card2 img,
+    .card3 img {
+        margin-bottom: 8px; 
+    } 
+    .skills .mh-professional-skills h3 {
+        text-align: center;
+        margin-left: -128px;
+    }
+
+    #projects {
+        height: auto;
+    }
+
+    .secondary h1 {
+        padding-right: 0;
+        font-size: 28px;
+    }
+
+    .my-projects .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5 {
+        margin: 16px 8px;
+        margin-right: 0;
+        padding: 16px 16px;
+    }
+
+    .box1 img,
+    .box2 img,
+    .box3 img,
+    .box4 img,
+    .box5 img {
+        margin: 8px 0;
+    }
+
+    .box1 a,
+    .box2 a,
+    .box3 a,
+    .box4 a,
+    .box5 a {
+        margin-top: 8px;
+    }
+
+    #Contact1 {
+        height: auto;
+    }
+
+    .connect h1 {
+        font-size: 32px; 
+        margin-bottom: 30px; 
+    }
+
+    form {
+        margin-left: 0;
+    }
+
+    form input,
+    textarea {
+        margin: 10px 0;
+    }
+
+    form textarea {
+        margin-left: 0;
+    }
+
+    .btn {
+        border-radius: 40px; 
+    }
+
+    #footer {
+        padding: 1.1rem 7%;
+    }
+
+    .footer-text p {
+        font-size: 1.5rem;
+    }
+
+    .footer-iconTop a {
+        padding: 0.7rem;
+    }
+
+    .footer-iconTop a i {
+        font-size: 2.2rem;
+    }
+}
+
+@media only screen and (min-width:1025px) and (max-width: 1424px) {
+
+    #navbar {
+        padding: 4px 12px; 
+    }
+
+    #navbar ul {
+        margin-left: 2rem; 
+    }
+
+    #navbar ul li {
+        padding: 15px 25px;
+        font-size: 18px; 
+    }
+
+    #About{
+    margin-left: -87px;
+}
+    .qualification{
+
+        display: flex;
+    }
+
+    .qualification .card1,
+    .card2,
+    .card3 {
+        margin: 24px 7px;
+        margin-right: 6px;
+        padding: 20px 10px;
+    }
+
+    .center button {
+        font-size: 18px;
+        padding: 12px;
+        margin: 6px 12px;
+    }
+
+    .qualification h2 {
+        font-size: 26px;
+        line-height: 58px;
+    }
+
+    .qualification p {
+        font-size: 18px;
+    }
+
+    .card1 img,
+    .card2 img,
+    .card3 img {
+        margin-bottom: 10px;
+    }
+    .skills .mh-professional-skills h3 {
+        text-align: center;
+        margin-left: -128px;
+    }
+    #projects {
+        height: auto; 
+    }
+
+    .secondary h1 {
+        font-size: 32px; 
+        padding-right: 100px; 
+    }
+
+    .my-projects {
+        text-align: center;
+    }
+
+    .my-projects .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5 {
+        margin: 16px 12px; 
+        margin-right: 0; 
+        padding: 16px 16px;
+    }
+
+    .box1 img,
+    .box2 img,
+    .box3 img,
+    .box4 img,
+    .box5 img {
+        margin: 8px 4px; /
+    }
+
+    .box1 a,
+    .box2 a,
+    .box3 a,
+    .box4 a,
+    .box5 a {
+        margin-top: 12px; 
+        font-size: 20px; 
+    }
+}   
+
+@media only screen and (min-width: 376px) and (max-width: 767px) {
+    #navbar ul {
+        margin-left: 0; 
+        flex-direction: column; 
+    }
+
+    #navbar ul li {
+        display: block;
+        padding: 10px; 
+        text-align: center; 
+    }
+    #Home {
+        height: auto;
+    }
+
+    .h-primary {
+        flex-direction: column-reverse; 
+        text-align: center;
+    }
+
+    .text1 {
+        margin: 0;
+        text-align: center;
+    }
+
+    .photo1 {
+        margin: 0 auto;
+    }
+
+    .com {
+        margin: 12px; 
+    }
+    .about-me {
+        flex-direction: column-reverse; 
+    }
+
+    .photo {
+        margin-right: 0; 
+        margin-bottom: 10px; 
+    }
+
+    .text {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .text button {
+        margin: 20px 0; 
+    } 
+    .qualification{
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+    }
+    .qualification .card1,
+    .card2,
+    .card3 {
+        margin: 16px 12px;
+        margin-right: 0;
+        padding: 16px 16px;
+    }
+
+    .center button {
+        margin: 10px 0; 
+    }
+    .skills .mh-professional-skills h3 {
+        text-align: center;
+        margin-left: -128px;
+    }
+    
+    #projects {
+        height: auto; 
+    }
+
+    .secondary h1 {
+        padding-right: 0; 
+    }
+
+    .my-projects .box1,
+    .my-projects .box2,
+    .my-projects .box3,
+    .my-projects .box4,
+    .my-projects .box5 {
+        margin: 16px 8px; 
+        margin-right: 0;
+        padding: 16px; 
+    }
+
+    .box1 img,
+    .box2 img,
+    .box3 img,
+    .box4 img,
+    .box5 img {
+        margin: 4px 5px; 
+    }
+
+    .box1 a,
+    .box2 a,
+    .box3 a,
+    .box4 a,
+    .box5 a {
+        font-size: 18px;
+        margin-top: 12px; 
+    }
+   
+    
+     #Contact1 {
+        height: auto;
+    }
+
+    .connect h1 {
+        font-size: 28px; 
+        margin-top: 12px; 
+        margin-right: 0; 
+    }
+
+    form {
+        position: static; 
+        margin: 12px; 
+        padding: 12px; 
+    }
+
+    form input,
+    form textarea {
+        margin: 10px 0; 
+        width: 100%; 
+    }
+
+    .btn {
+        margin-top: 20px; 
+    }
+
+    form textarea {
+        margin-left: 0; 
+    }
+
+    #footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 1.1rem 5%;
+    }
+
+    .footer-text p {
+        margin-bottom: 1rem;
+    }
+
+    .footer-iconTop {
+        margin-top: 1rem;
+    }
+}
